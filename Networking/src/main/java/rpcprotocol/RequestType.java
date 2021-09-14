@@ -1,0 +1,5 @@
+package rpcprotocol;
+
+public enum RequestType {
+    LOGIN, LOGOUT, ADAUGA_REZULTAT,GET_PARTICIPANTI_ORDONATI,GET_PARTICIPANTI_AR,FIND_ONE_PART;
+}

@@ -1,0 +1,58 @@
+syntax="proto3";
+import "google/protobuf/any.proto";
+package triatlon.protocol;
+
+option java_package = "contest.networking.protobuffprotocol";
+option java_outer_classname = "ContestProtobufs";
+
+
+message Proba
+{
+  string nume=1;
+}
+message Arbitru
+{
+  string nume=1;
+  string user=2;
+  string pw=3;
+  Proba proba=4;
+}
+
+message Participant
+{
+  string nume=1;
+  int32 punctajtotal=2;
+}
+message Rezultat
+{
+  Proba proba=1;
+  int32 punctajtotal=2;
+  Participant participant=3;
+}
+
+message Lista
+{
+  Rezultat r=1;
+  Participant p=2;
+}
+
+message ArbitruRequest
+{
+  enum Type {Unkown=0;LOGIN=1; LOGOUT=2; ADAUGA_REZULTAT=3;GET_PARTICIPANTI_ORDONATI=4;GET_PARTICIPANTI_AR=5;FIND_ONE_PART=6;}
+  Type type = 1;
+  Arbitru arbitru=2;
+  int64 id=3;
+  Rezultat r=4;
+  Lista l=5;
+
+}
+
+message ArbitruResponse
+{
+  enum Type {Unkown=0;OK=1; ERROR=2; UPDATE=3;}
+  Type type = 1;
+  string error = 2;
+  repeated Arbitru a=3;
+  repeated google.protobuf.Any participants=4;
+  Participant participant=5;
+}

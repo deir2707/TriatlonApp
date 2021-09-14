@@ -1,0 +1,8 @@
+include 'Client'
+include 'Model'
+include 'Networking'
+include 'Persistence'
+include 'Server'
+include 'Service'
+include 'Services'
+
