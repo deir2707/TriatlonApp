@@ -1,12 +1,12 @@
-domain/Lista.java
- domain.Lista
-domain/Entity.java
- domain.Entity
-domain/Participant.java
- domain.Participant
-domain/Arbitru.java
- domain.Arbitru
-domain/Rezultat.java
- domain.Rezultat
 domain/Proba.java
  domain.Proba
+domain/MEntity.java
+ domain.MEntity
+domain/Arbitru.java
+ domain.Arbitru
+domain/Lista.java
+ domain.Lista
+domain/Participant.java
+ domain.Participant
+domain/Rezultat.java
+ domain.Rezultat

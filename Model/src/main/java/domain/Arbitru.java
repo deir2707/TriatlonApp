@@ -2,7 +2,7 @@ package domain;
 
 import java.io.Serializable;
 
-public class Arbitru extends Entity<Long> implements Serializable {
+public class Arbitru extends MEntity<Long> implements Serializable {
     private String nume;
     private String user;
     private String pw;

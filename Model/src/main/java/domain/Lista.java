@@ -1,6 +1,6 @@
 package domain;
 import java.io.Serializable;
-public class Lista extends Entity<Long> implements Serializable{
+public class Lista extends MEntity<Long> implements Serializable{
     private Rezultat r;
     private Participant participant;
 

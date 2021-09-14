@@ -123,8 +123,9 @@ public class ProbaDBRepository implements ProbaRepository {
 
     }
     @Override
-    public void update(Proba entity)
+    public Proba update(Proba entity)
     {
+        Proba p=null;
         logger.traceEntry("update proba {}",entity);
         Connection connection=dbUtils.getConnection();
         try(PreparedStatement preStmt = connection.prepareStatement("UPDATE Proba SET nume=? WHERE ID_proba=?")) {
@@ -137,6 +138,8 @@ public class ProbaDBRepository implements ProbaRepository {
             logger.error(exception);
             System.out.println("Error DB"+exception);
         }
+
+        return p;
     }
 
 

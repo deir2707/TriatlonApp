@@ -1,6 +1,7 @@
 package repo;
 
-import domain.Entity;
+
+import domain.MEntity;
 
 /**
  * CRUD operations repository interface
@@ -8,7 +9,7 @@ import domain.Entity;
  * @param <E> -  type of entities saved in repository
  */
 
-public interface ICrudRepository<ID, E extends Entity<ID>> {
+public interface ICrudRepository<ID, E extends MEntity<ID>> {
 
     /**
      *
@@ -60,7 +61,7 @@ public interface ICrudRepository<ID, E extends Entity<ID>> {
 
      *             if the entity is not valid.
      */
-    void update(E entity);
+    E update(E entity);
 
     /**@return lungimea
      *

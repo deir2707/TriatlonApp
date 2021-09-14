@@ -1,8 +1,9 @@
 package domain;
 
 import java.io.Serializable;
-
-public class Participant extends Entity<Long> implements Serializable {
+import javax.persistence.*;
+@Entity
+public class Participant extends MEntity<Long> implements Serializable {
     private String nume;
     private Integer punctajtotal;
 
@@ -10,6 +11,12 @@ public class Participant extends Entity<Long> implements Serializable {
         this.nume = nume;
         this.punctajtotal = punctajtotal;
     }
+
+    public Participant()
+    {
+        // this form used by Hibernate
+    }
+
 
     public String getNume() {
         return nume;
@@ -26,5 +33,11 @@ public class Participant extends Entity<Long> implements Serializable {
     public void setPunctajtotal(Integer punctajtotal) {
         this.punctajtotal = punctajtotal;
     }
-
+    @Override
+    public String toString() {
+        return "Participant{" +
+                "nume='" + nume + '\'' +
+                ", punctajtotal='" + punctajtotal + '\'' +
+                '}';
+    }
 }

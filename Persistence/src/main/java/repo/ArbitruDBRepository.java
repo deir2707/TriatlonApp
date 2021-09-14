@@ -144,8 +144,9 @@ public class ArbitruDBRepository implements ArbitruRepository {
 
     }
     @Override
-    public void update(Arbitru entity)
+    public Arbitru update(Arbitru entity)
     {
+        Arbitru a=null;
         logger.traceEntry("update arbitru {}",entity);
         Connection connection=dbUtils.getConnection();
         try(PreparedStatement preStmt = connection.prepareStatement("UPDATE Arbitru SET nume=?,user=?,pw=?,ID_proba=? WHERE ID_arbitru=?")) {
@@ -162,6 +163,7 @@ public class ArbitruDBRepository implements ArbitruRepository {
             logger.error(exception);
             System.out.println("Error DB"+exception);
         }
+        return a;
     }
     @Override
     public Arbitru findUserPw(String user,String pw){

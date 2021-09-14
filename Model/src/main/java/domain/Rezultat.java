@@ -2,7 +2,7 @@ package domain;
 
 import java.io.Serializable;
 
-public class Rezultat extends Entity<Long> implements Serializable {
+public class Rezultat extends MEntity<Long> implements Serializable {
 
     private Proba proba;
     private Integer punctajtotal;

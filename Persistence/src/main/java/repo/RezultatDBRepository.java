@@ -142,8 +142,9 @@ public class RezultatDBRepository implements RezultatRepository {
         }
     }
     @Override
-    public void update(Rezultat entity)
+    public Rezultat  update(Rezultat entity)
     {
+        Rezultat r=null;
         logger.traceEntry("update rezultat {}",entity);
         Connection connection=dbUtils.getConnection();
         try(PreparedStatement preStmt = connection.prepareStatement("UPDATE Rezultat SET ID_proba=?,punctajtotal=?,ID_participant=? WHERE ID_arbitru=?")) {
@@ -159,7 +160,10 @@ public class RezultatDBRepository implements RezultatRepository {
         {
             logger.error(exception);
             System.out.println("Error DB"+exception);
+
         }
+        return r;
     }
+
     }
 

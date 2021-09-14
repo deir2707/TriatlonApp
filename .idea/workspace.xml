@@ -24,10 +24,16 @@
   <component name="ChangeListManager">
     <list default="true" id="848547fb-0b32-468c-aa6f-d9ac930c36a6" name="Default Changelist" comment="l">
       <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mpp-proiect-repository-deir2707-hibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Persistence/mpp-proiect-repository-deir2707.Persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Persistence/mpp-proiect-repository-deir2707.Persistence.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Server/mpp-proiect-repository-deir2707.Server.main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Model/src/main/java/domain/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/Protocol_v3.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/domain/MEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/Hibernate/ParticipantHbnRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/dialect/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/h.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/participant.hbm/Participant.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -39,11 +45,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mpp-proiect-repository-deir2707.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4fbc0744-be2b-416a-8b6c-d284b4b1235d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4fbc0744-be2b-416a-8b6c-d284b4b1235d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mpp-proiect-repository-deir2707.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mpp-proiect-repository-deir2707.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Arbitru.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Arbitru.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Participant.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Participant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Proba.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Proba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Rezultat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/classes/java/main/domain/Rezultat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/build/libs/Model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/libs/Model-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/domain/Arbitru.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/domain/Arbitru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/domain/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/domain/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/domain/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/domain/Proba.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/domain/Proba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/domain/Rezultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/domain/Rezultat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ClientRpcReflectionWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ClientRpcReflectionWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ServicesRpcProxy$ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ServicesRpcProxy$ReaderThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ServicesRpcProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/classes/java/main/rpcprotocol/ServicesRpcProxy.class" afterDir="false" />
@@ -51,10 +74,29 @@
       <change beforePath="$PROJECT_DIR$/Networking/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Networking/src/main/java/rpcprotocol/ClientRpcReflectionWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/rpcprotocol/ClientRpcReflectionWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Networking/src/main/java/rpcprotocol/ServicesRpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/rpcprotocol/ServicesRpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ArbitruDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ArbitruDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ICrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ICrudRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ParticipantDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ParticipantDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ProbaDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/ProbaDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/RezultatDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/classes/java/main/repo/RezultatDBRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/build/libs/Persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/libs/Persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/repo/ArbitruDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/ArbitruDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/repo/ICrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/ICrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/repo/ParticipantDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/ParticipantDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/repo/ProbaDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/ProbaDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/src/main/java/repo/RezultatDBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/src/main/java/repo/RezultatDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/build/classes/java/main/StartRpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build/classes/java/main/StartRpcServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/build/libs/Server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build/libs/Server-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/build/resources/main/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build/resources/main/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/StartRpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/StartRpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/build/classes/java/main/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/Services/build/classes/java/main/service/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/build/libs/Services-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Services/build/libs/Services-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triatlon" beforeDir="false" afterPath="$PROJECT_DIR$/triatlon" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,43 +125,29 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
+                <item name="mpp-proiect-repository-deir2707" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
+                <item name="mpp-proiect-repository-deir2707" type="f1a62948:ProjectNode" />
                 <item name="Client" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
+                <item name="mpp-proiect-repository-deir2707" type="f1a62948:ProjectNode" />
                 <item name="Client" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
-                <item name="Client" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
+                <item name="mpp-proiect-repository-deir2707" type="f1a62948:ProjectNode" />
                 <item name="Server" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
+                <item name="mpp-proiect-repository-deir2707" type="f1a62948:ProjectNode" />
                 <item name="Server" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mpp-proiect-repository-deir2707-hibernate" type="f1a62948:ProjectNode" />
-                <item name="Server" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -132,14 +160,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1pUOKYWy2oClBrlnge12EkqjPm9" />
   <component name="ProjectLevelVcsManager">
@@ -160,35 +216,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4725569" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\Persistence\src\main\java\repo" />
+      <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\Networking\src\main\java" />
+      <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\src\main\java\controller\utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\proto" />
       <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\Client\src\main\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\Networking\src\main\java" />
-      <recent name="C:\Users\dedoa\IdeaProjects\mpp-proiect-repository-deir2707\src\main\java\controller\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.mpp-proiect-repository-deir2707:Client [run]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="mpp-proiect-repository-deir2707.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -326,10 +373,16 @@
       <workItem from="1619672491183" duration="1349000" />
       <workItem from="1620767515026" duration="26000" />
       <workItem from="1620854039033" duration="6877000" />
-      <workItem from="1621455988804" duration="27000" />
-      <workItem from="1621456143152" duration="32000" />
-      <workItem from="1624362358145" duration="4899000" />
-      <workItem from="1631638115181" duration="1116000" />
+      <workItem from="1621455988804" duration="156000" />
+      <workItem from="1621456238050" duration="5811000" />
+      <workItem from="1621467212631" duration="87000" />
+      <workItem from="1621467308469" duration="52000" />
+      <workItem from="1621467366818" duration="2235000" />
+      <workItem from="1621469621444" duration="8608000" />
+      <workItem from="1621501169250" duration="2614000" />
+      <workItem from="1622088909799" duration="21000" />
+      <workItem from="1622089288863" duration="2171000" />
+      <workItem from="1631640092526" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Sapt3">
       <created>1615236614848</created>

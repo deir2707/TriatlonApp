@@ -90,8 +90,9 @@ public class ParticipantDBRepository implements ParticipantRepository{
         }
     }
     @Override
-    public void update(Participant entity)
+    public Participant update(Participant entity)
     {
+        Participant p=null;
         logger.traceEntry("update participant {}",entity);
         Connection connection=dbUtils.getConnection();
         try(PreparedStatement preStmt = connection.prepareStatement("UPDATE Participant SET nume=?,punctajtotal=? WHERE ID_participant=?")) {
@@ -107,6 +108,7 @@ public class ParticipantDBRepository implements ParticipantRepository{
             logger.error(exception);
             System.out.println("Error DB"+exception);
         }
+        return p;
 
     }
     @Override
